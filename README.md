@@ -1,10 +1,14 @@
-# `(import (letloop template))`
+# `(import (letloop json))`
 
-Abstract description...
+JSON reader, and writer.
 
-## `(procedure one two)` `type?` `type?` → `type?`
+## `(json-read generator-or-port)`
 
-Description...
+## `(json-write accumulator-or-port)`
+
+## `(jsonify object)`
+
+Returns a string representation of `OBJECT` using JSON.
 
 
 
